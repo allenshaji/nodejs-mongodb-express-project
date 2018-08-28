@@ -1,11 +1,10 @@
-// books.js
+// students.js
 
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 
 var StudentSchema = new Schema({
-  no: String,
   name: String,
   fathersname: String,
   address: String,
